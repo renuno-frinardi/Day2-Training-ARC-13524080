@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
   res.sendFile(staticPath + '/pages/index.html');
 });
 
+app.get('/catalog', (req, res) => {
+  res.sendFile(staticPath + '/pages/catalog.html');
+});
+
 app.listen(5500, () => {
   console.log('Server listening on port 5500');
 });

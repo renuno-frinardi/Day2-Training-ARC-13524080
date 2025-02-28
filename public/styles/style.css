@@ -393,3 +393,12 @@ body {
 #page-footer li:hover {
     color: #555;
 }
+
+#products-section div {
+    text-align: center;
+    background-color: #184182;
+    margin: 50px;
+    padding: 20px;
+    color: #fbfff1;
+    border-radius: 20px;
+}
